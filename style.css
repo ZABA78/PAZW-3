@@ -1,0 +1,220 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Tilt Neon', sans-serif;
+margin: 0;
+padding: 0;
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Można dostosować wielkość tekstu dla mniejszych ekranów */
+    }
+    
+    header ul li {
+        float: none;
+        display: block;
+        text-align: center; /* Centralizacja elementów w menu */
+        width: 100%; /* Zajmują całą szerokość */
+    }
+}
+nav {
+	margin: 0 auto;
+	max-width: 800px;
+	background: rgb(7, 154, 7);
+	
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+    
+}
+
+nav ul li a {
+	display: block;
+	
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+    
+}
+a
+{
+    color:black
+}
+header
+{
+    background-color: rgb(7, 154, 7); ;
+}
+
+
+main
+{
+    background-color: #333333;;
+    height: 120vh;
+    
+}
+
+.zawodnicy {
+	display: none;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+.zespoly {
+	display: none;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+    
+}
+.mecze {
+	display: none;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+    
+}
+.trofea {
+	display: none;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+    
+}
+
+#tabs
+{
+    background-color: #333333;
+    color:#333333;
+}
+#kk
+{
+    background-color: #333333;
+    height: 28vh;
+}
+.real
+{
+	height: 400px;
+	border-radius: 6px;
+}
+.tabs-1
+{
+	display: flex;
+	flex-direction: row;
+}
+#jeden {
+    display: inline-block;
+}
+
+#dwa {
+    display: inline-block;
+    vertical-align: top;
+	margin-left: 200px;
+}
+footer {
+    height: 30vh;
+    background-color: rgb(7, 154, 7); ;
+    display: flex;
+    align-items: center;    
+}
+.linia-pionowa {
+    border-left: 1px solid #080707; 
+    height: 190px;
+    margin-left: 700px;
+    padding: 10px;
+    
+
+}
+.lista
+{
+    font-size: 20px;
+}
+.tekst-stopka
+{
+    font-weight: 21px;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 2px;
+}
+.wykonawca
+{
+    font-weight: 200;
+}
+
+.trze
+{
+	display: inline-block;
+}
+#menu_mecze {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #191717;
+	color: #ffffff;
+	height: 50vh;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid  #ffffff;
+	border-right: 1px solid  #ffffff;
+	border-bottom: 1px solid  #ffffff;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.zdje {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.vs {
+	font-size: 2em;
+	margin: 0 20px;
+}
+.k
+{
+	color: #fff;
+	background-color: #191717;
+	text-align: center;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-left: 1px solid  #ffffff;
+	border-right: 1px solid  #ffffff;
+	border-top: 1px solid  #ffffff;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+#start
+{
+	background-color: #191717;
+	width: 87%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	border-radius: 7px;
+	border: 1px solid white;
+	padding: 20px;
+}
+#chwila
+{
+	height: 80vh;
+}

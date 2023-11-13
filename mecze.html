@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "jquery.js"></script>
+    <link href="jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <script>src="external/jquery/jquery.js" </script>
+    <script src = "jquery-ui.min.js"></script>
+    <title>PiłkaNożna24</title>
+<script>
+            $(document).ready(function() {
+            $(".lista1").mouseover(function() {
+                $(".zawodnicy").show(300);
+            });
+
+            $(".lista1").mouseleave(function() {
+                $(".zawodnicy").hide(300);
+            });
+            $(".lista2").mouseover(function() {
+                $(".zespoly").show(300);
+            });
+
+            $(".lista2").mouseleave(function() {
+                $(".zespoly").hide(300);
+            });
+            $(".lista3").mouseover(function() {
+                $(".mecze").show(300);
+            });
+
+            $(".lista3").mouseleave(function() {
+                $(".mecze").hide(300);
+            });
+            $(".lista4").mouseover(function() {
+                $(".trofea").show(300);
+            });
+
+            $(".lista4").mouseleave(function() {
+                $(".trofea").hide(300);
+            });
+
+ 
+        });
+
+        $( function() {
+        $( "#tabs" ).tabs();
+        });
+
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tilt+Neon&display=swap');
+    </style>
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="nav">
+        <ul>
+            
+            <li><a href="index.html"><h1>PiłkaNożna24</h1></a>
+                <li class="lista1"><a href="zawodnicy.html">Zawodnicy</a>
+                    <ul class="zawodnicy">
+                        <li><a href="zawodnicy.html">Cristiano Ronaldo</a></li>
+                        <li><a href="zawodnicy.html">Robert Lewandowski</a></li>
+                        <li><a href="zawodnicy.html">Lionel Messi</a></li>
+                    </ul>
+                </li>
+                
+                 <li class="lista2"><a href="zespoly.html">Zespoły</a>
+                        <ul class="zespoly">
+                            <li><a href="zespoly.html">Real Madryt</a></li>
+                            <li><a href="zespoly.html">Rks Radomsko</a></li>
+                            <li><a href="zespoly.html">FC Barcelona</a></li>
+                        </ul>
+                    </li>
+                    <li class="lista3"><a href="mecze.html">Mecze</a>
+                        <ul class="mecze">
+                            <li><a href="mecze.html">Real - FC</a></li><br>
+                            <li><a href="mecze.html">Rks - Gks</a></li><br>
+                            <li><a href="mecze.html">FC - PSG</a></li>
+                        </ul>
+                    </li>
+                    <li class="lista4"><a href="historia.html">Historie</a>
+                        <ul class="trofea">
+                            <li><a href="historia.html">H. Realu</a></li><br>
+                            <li><a href="historia.html">H. Ronaldo</a></li><br>
+                            <li><a href="historia.html">H. Ligi</a></li>
+                        </ul>
+                    </li>
+    
+     
+    
+            </ul>
+    </nav>
+</header>
+<section id = "kk"></section>
+<main>
+    <h2 class = "k">Najbliższy mecz</h2>
+    <section id="menu_mecze">
+        <div class="zdje">
+            <img src="REAL.png" class="real" alt="">
+        </div>
+        <div class="vs">VS</div>
+        <div class="zdje">
+            <img src="FC_Barcelona.png" class="real" alt="">
+        </div>
+      </section>
+
+</main>
+<footer>
+    <img src="ikona.png" class="ikona" alt="">
+    <p class = "tekst-stopka"><b>BĄDŹ NA BIEŻĄCO</b></p>
+    <div class="linia-pionowa"></div>
+    <section class = "lista">
+    <ul>
+        <b>    
+        <li>tel.613 321 542</li>
+        <li>e-mail: swiatfutbolu24@gmail.com</li>
+        <li>godziny kontaktu: 7-21</li>
+        <li>fax 764 212 437</li>
+     </ul>
+     <summary class = "wykonawca"><strong>Stronę wykonał:<br>
+     Wojciech Bednarek</strong></summary>
+    </b>
+     </section>
+</footer>
+</body>
+</html>
